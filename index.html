@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Google</title>
-    <link rel="shortcut icon" href="C:\Users\Reynard\Desktop\odin_project\google_homepage">
+    <link style="height: 20px;" href="media/google.png" rel="shortcut icon">
     <meta charset="UTF-8">
   </head>
 
+  <body>
+    <div class="page_layout">
+      <div class="logo-area" id="google-image">
+        <img alt="Google" src=media/google-logo.jpg height="200" width="400" style="padding-top:109px;">
+      </div>
+
+      <div class="logo-area" id="searchbox">
+          <input style="border:none;"type="text" title="Search">
+          <input type="image" title="Search by voice" src="media/mic.png" id="mic">
+      </div>
+
+      <div class="buttons">
+        <input id="google-button" type="button" value="Google Search">
+        <input id="google-button-2" type="button" value="I'm Feeling Lucky">
+      </div>
+
+      <div class="logo-area" id="goi">
+        Google offered in:
+        <a id="chinese" href="x" style="color:blue;">中文</a>
+      </div>
+
+      <div class="top-nav-bar">
+        <ul id="header-list">
+          <li id="pro" title="Google account" style="color:green;"><a href="my-profile.asp"><i class="material-icons">account_circle</i></a></li>
+          <li id="noti" title="Google notifications"><a href="notifications.asp"><i class="material-icons">notifications_none</i></a></li>
+          <li id="icon" title="Google apps"><a href="#"><i class="material-icons">apps</i></a></li>
+          <li id="images"><a href="images.asp">Images</a></li>
+          <li id="gmail"><a href="gmail.asp">Gmail</a></li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        <ul id="footer-list" style="height: 40px;">
+          <li><a href="advertising.asp">Advertising</a><li>
+          <li><a href="business.asp">Business</a><li>
+          <li><a href="about.asp">About</a><li>
+          <li id="footer-right"><a href="settings.asp">Settings</a><li>
+          <li id="footer-right"><a href="terms.asp">Terms</a><li>
+          <li id="footer-right"><a href="privacy.asp">Privacy</a><li>
+
+        </ul>
+      </div>
+
+    </div>
+  </body>
 
 </html>
