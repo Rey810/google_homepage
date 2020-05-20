@@ -1,1 +1,9 @@
-This is pretty much my first attempt at creating something resembling a functional-looking website. It's supposed to resemble something very familiar to all of us. This is a much better looking website than the one I created for my Bioinformatics project which looked like an uninspired scientist's personality converted into html and css and stuck onto the web.
+# Google Results Page
+
+## Goals
+1. Using only HTML and CSS, recreate the look of a google result
+2. Become familiar with HTML and CSS syntax
+
+## Skils Gained/Used
+1. Attention to detail
+2. Working understanding of semantic HTML and styling with CSS
